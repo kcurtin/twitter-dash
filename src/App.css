@@ -1,0 +1,34 @@
+.App {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-tweet-container {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+.App-search-input {
+  height: 40px;
+  width: 400px;
+}
+
+.App-tweet-list {
+  list-style: none;
+}
+
+.App-tweet {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 0.5px solid #000;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
